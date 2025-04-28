@@ -1,0 +1,23 @@
+package com.mycompany.empresa;
+
+/**
+ *
+ * @author Hp15042025
+ */
+public class EMPRESA {
+
+    public static void main(String[] args) {
+        BASEDATOS BAS =  new BASEDATOS();
+       BAS.setVisible(true);
+    }
+
+    private static class base {
+
+        public base() {
+        }
+
+        private void setVisible(boolean b) {
+            throw new UnsupportedOperationException("Not supported yet."); // Generated from nbfs://nbhost/SystemFileSystem/Templates/Classes/Code/GeneratedMethodBody
+        }
+    }
+}
